@@ -685,7 +685,11 @@ body {
   font-size: 0;
   border-radius: 6px;
 }
-
+@media (max-width: 400px) {
+  #es-mixa.es-mixa .es-reviews .swiper-pagination-bullet {
+    width: 30px;
+  }
+}
 #es-mixa.es-mixa .es-reviews .swiper-pagination-bullet-active {
   opacity: 1;
 }
@@ -792,26 +796,13 @@ body {
 #es-mixa.es-mixa .es-slider__slide {
   max-height: 100%;
   border-radius: 8px;
-  height: 440px;
+  /* height: 440px; */
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#es-mixa.es-mixa .swiper-slide {
-  display: none;
-  animation-duration: 0.5s;
-  animation-fill-mode: both;
-}
-
-#es-mixa.es-mixa .swiper-slide.active {
-  animation-name: slideleft;
-}
-
-#es-mixa.es-mixa .swiper-slide.prev {
-  animation-name: slideright;
-}
 
 #es-mixa.es-mixa .slick-button-prev,
 #es-mixa.es-mixa .slick-button-next {

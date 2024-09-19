@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="3600551049854/style/swiper-bundle.min.css" />
   <link rel="stylesheet" href="3600551049854/style/style.css" />
 </head>
 
@@ -289,9 +290,9 @@
         <div class="es-reviews__container">
 
           <div class="es-slider__wrapper background-1 ">
-            <div class="es-slider__content">
+            <div class="es-slider__content swiper">
 
-              <div class="es-slick-carousel">
+              <div class="es-slick-carousel swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="es-slider__slide es-slider__slide--1 es-reviews__slide">
                     <img src="3600551049854/images/stars.png" alt="" class="es-reviews__img es-reviews__img--stars" />
@@ -403,13 +404,12 @@
                   </div>
                 </div>
               </div>
-              <div class="es-slider__arrows">
-                <div class="slick-button-prev">
-                  <img src="3600551049854/images/arrow-left.png" alt="" />
-                </div>
-                <div class="slick-button-next">
-                  <img src="3600551049854/images/arrow-right.png" alt="" />
-                </div>
+              <div class="swiper-pagination"></div>
+              <div class="slick-button-prev swiper-button-prev">
+                <img src="3600551049854/images/arrow-left.png" alt="" />
+              </div>
+              <div class="slick-button-next swiper-button-next">
+                <img src="3600551049854/images/arrow-right.png" alt="" />
               </div>
 
             </div>
@@ -418,6 +418,8 @@
       </div>
     </div>
   </div>
+
+  <script src="3600551049854/scripts/swiper-bundle.min.js"></script>
   <script src="3600551049854/scripts/es-slider.js"></script>
 </body>
 
