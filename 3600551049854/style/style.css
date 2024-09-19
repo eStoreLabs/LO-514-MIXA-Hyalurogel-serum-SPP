@@ -799,6 +799,20 @@ body {
   justify-content: center;
 }
 
+#es-mixa.es-mixa .swiper-slide {
+  display: none;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+#es-mixa.es-mixa .swiper-slide.active {
+  animation-name: slideleft;
+}
+
+#es-mixa.es-mixa .swiper-slide.prev {
+  animation-name: slideright;
+}
+
 #es-mixa.es-mixa .slick-button-prev,
 #es-mixa.es-mixa .slick-button-next {
   cursor: pointer;
